@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+    background-position: center center;
+}
+h1{
+    color: rgb(39, 1, 1);
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    max-width: 800px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid #000;
+    display: flex;
+    backdrop-filter: blur(2px);
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-family: cursive;
+    font-size: 25px;
+    color: black;
+}
+input{
+    max-width: 80px;
+    height: 30px;
+    margin: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+button{
+    color: white;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 15px;
+    transition: all 0.9s;
+}
+.block__cont{
+    max-width: 800px;
+    height: 200px;
+    background: none;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block__item1{
+    max-width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    backdrop-filter: blur(2px);
+}
+.block__item2{
+    max-width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    backdrop-filter: blur(2px);
+
+}
+.block__item3{
+    max-width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    border: 1px solid #000;
+}
+.block__item4{
+    max-width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+
+    border: 1px solid #000;
+}
+.img1{
+    max-width: 80px;
+    margin: 5px 50px;
+    margin-top: 15px;
+}
+.h3{
+    text-align: center;
+    margin-top: -5px;
+}
+.hisoblash{
+    text-align: center;
+    margin-top: 1px;
+}
+
